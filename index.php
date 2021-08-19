@@ -285,10 +285,6 @@
 					<p class="question">Como saber o preço exato do meu gerador e parcelas?</p>
 					<p class="answer">Para dimensionar o seu gerador de forma exata precisamos que nos envie uma foto da sua conta de energia, Assim fazemos o cálculo pela média de seu consumo anual.</p>
 				</div>
-
-				<div class="area-link">
-					<a href="#">Solicite seu orçamento ou uma consultoria gratuita</a>
-				</div>
 			</content>
 		</section>
 
@@ -302,8 +298,8 @@
 					<a href="https://t.me/kerosolar"><i class="fa">&#xf1d8;</i></a><!--telegram-->
 				</div>
 				<div class="infos-rodape">
-					<label>Kerosolar 2021 © Todos os direitos reservados</label>
 					<label>Contato: +55 (21) 4141-2089 | Email: kerosolar@kerosolar.com.br</label>
+					<label>Kerosolar 2021 © Todos os direitos reservados</label>
 				</div>
 			</content>
 		</footer>
