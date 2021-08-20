@@ -50,7 +50,9 @@
 							</li>
 						</ul>
 
-						<a href="https://kerosolar.com.br/contato/" class="link">Solicite seu orçamento ou uma consultoria gratuita</a>
+						<div class="area-link">
+							<a href="https://kerosolar.com.br/contato/" class="link">Solicite seu orçamento ou uma consultoria gratuita</a>
+						</div>
 					</div>
 				</div>
 			</content>
