@@ -18,10 +18,10 @@ input {outline:none;}
 
 content {float:left; width:90%; margin-left:5%; padding:90px 0px;}
 
-header {float:left; width:100%; height:100%;}
+header {float:left; width:100%; height:100vh;}
 header content {position:absolute; width:80%; z-index:3; top:0px; left:5%;}
-header div.background-img {float:left; width:100%; height:100%; background:url("../img/background_header.jpg") no-repeat; background-attachment:fixed; background-size:cover; background-position:top;}
-header div.background-color {position:absolute; width:100%; height:100%; z-index:2; top:0px; left:0px; background-color:rgba(0,0,0, 0.8);}
+header div.background-img {float:left; width:100%; height:100vh; background:url("../img/background_header.jpg") no-repeat; background-attachment:fixed; background-size:cover; background-position:top;}
+header div.background-color {position:absolute; width:100%; height:100vh; z-index:2; top:0px; left:0px; background-color:rgba(0,0,0, 0.8);}
 header div.top-header {position:absolute; top:0px; left:0px; width:100%; border-bottom:1px solid #2c89c1; background-color:rgba(0,0,0, 0.8); z-index:5; padding:10px 0px; }
 header div.top-header img.logo {position:relative; height:60px; z-index:8; margin-left:5%;}
 header div.top-header div.redes-sociais {float:right; margin-right:5%; margin-top:10px; display:flex; justify-content:center;}
@@ -37,8 +37,18 @@ header div.center-header div.area-info-header ul li:nth-child(2) {border-left:1p
 header div.center-header div.area-info-header ul li i {color:#fdfdfe; margin-bottom:10px; font-size:35px;}
 header div.center-header div.area-info-header ul li label {float:left; margin-bottom:10px; width:100%; text-align:center; font-size:18px; color:#ee591f; font-weight:bold;}
 header div.center-header div.area-info-header ul li p {width:100%; text-align:center; font-size:12px; color:#e8e8e8;}
-header div.center-header div.area-info-header a.link {background-color:#fdfdfe; margin-top:70px; font-weight:bold; color:#ee591f; padding:8px 30px; font-size:14px; transition:0.3s; animation-name:showScale; animation-duration:2s; animation-iteration-count:1;}
+header div.center-header div.area-info-header a.link {background-color:#fdfdfe; margin-top:70px; text-align:center; font-weight:bold; color:#ee591f; padding:8px 30px; font-size:14px; transition:0.3s; animation-name:showScale; animation-duration:2s; animation-iteration-count:1;}
 header div.center-header div.area-info-header a.link:hover {background-color:#2c89c1; color:#fdfdfe; transition:0.3s; transform:translateY(-5px);}
+
+@media (min-width:0px) and (max-width:900px) {
+	header content {height:50%; margin-top:130px;}
+	header div.center-header {margin-top:10px; height:100%; display:flex; align-items:center; align-content:center;}
+	header div.center-header div.area-info-header h1 {font-size:19px;}
+	header div.center-header div.area-info-header h3 {font-size:14px; margin-bottom:40px;}
+	header div.center-header div.area-info-header ul {width:100%; flex-wrap:wrap;}
+	header div.center-header div.area-info-header ul li {float:left; border:none !important; padding:5px; width:100%;}
+	header div.center-header div.area-info-header a.link {margin-top:30px;}
+}
 
 @keyframes showSliceToTop {
 	0% {transform:translateY(100px); opacity:0;}
@@ -78,7 +88,11 @@ section.models ul.list-models > li ul {width:100%; list-style:none; display:flex
 section.models ul.list-models > li ul li {float:left; width:90%; text-align:center; font-size:14px; padding:10px 0px; color:#17202a;}
 section.models ul.list-models > li ul li:nth-child(2n+1) {background-color:#e8e8e8;}
 section.models div.area-link {float:left; width:100%; display:flex; justify-content:center;}
-section.models div.area-link a {float:left; background-color:#fdba3f; color:#fdfdfe; margin-top:35px; border-radius:7px; padding:7px 40px; font-size:14px;}
+section.models div.area-link a {float:left; background-color:#fdba3f; color:#fdfdfe; text-align:center; margin-top:35px; border-radius:5px; padding:9px 40px; font-size:14px; transition:0.3s;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+section.models div.area-link a:hover {background-color:#ee591f; transition:0.3s; transform:translateY(-5px);}
 
 section.feedbacks {float:left; width:100%;}
 section.feedbacks content {float:left; width:90%; margin-left:5%; padding:90px 0px;}
@@ -92,7 +106,10 @@ section.feedbacks ul.list-feedbacks li div label {float:left; width:100%; margin
 section.feedbacks ul.list-feedbacks li div p {float:left; width:100%; font-size:11px; color:#e8e8e8;}
 section.feedbacks ul.list-feedbacks a {float:;}
 section.feedbacks div.area-link {float:left; width:100%; display:flex; justify-content:center;}
-section.feedbacks div.area-link a {background-color:#fdba3f; color:#fdfdfe; margin-top:35px; border-radius:7px; padding:7px 40px; font-size:14px;}
+section.feedbacks div.area-link a {background-color:#fdba3f; color:#fdfdfe; text-align:center; margin-top:35px; border-radius:5px; padding:9px 40px; font-size:14px; transition:0.3s;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
+section.feedbacks div.area-link a:hover {background-color:#ee591f; transition:0.3s; transform:translateY(-5px);}
 
 section.partners {float:left; width:100%;}
 section.partners content {float:left; width:90%; margin-left:5%;}

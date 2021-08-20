@@ -230,7 +230,7 @@
 					</li>
 				</ul>
 				<div class="area-link">
-					<a href="#">Confira todos os depoimentos</a>
+					<a href="https://kerosolar.com.br/contato/" class="link">Solicite seu orçamento ou uma consultoria gratuita</a>
 				</div>
 			</content>
 		</section>
