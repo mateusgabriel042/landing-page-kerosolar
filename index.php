@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Landing Page</title>
+		<title>Kero Solar</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
@@ -10,8 +10,29 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.min.js"></script>
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.min.css" rel="stylesheet" />
 		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<meta name="keywords" content="energia solar, energia fotovoltaica, placa solar, painel solar, energia solar fotovoltaica, painéis solares, placa solar preço, painel solar preço, energia solar residencial, placa fotovoltaica, energia solar preço, placa de energia solar, painéis fotovoltaicos, painel fotovoltaico" />
+
+		<meta name="google-site-verification" content="oT0Abx01F4LAtXUABK8Y25nb2jRb4o-Q4-oEc5tIUBs" /> 
+		<!-- Google Tag Manager --> 
+		<script>
+			(function(w,d,s,l,i){
+				w[l]=w[l]||[];
+				w[l].push({
+					'gtm.start': new Date().getTime(),
+					event:'gtm.js'
+				});
+				var f=d.getElementsByTagName(s)[0], 
+				j=d.createElement(s),
+				dl=l!='dataLayer'?'&l='+l:'';
+				j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+				f.parentNode.insertBefore(j,f); 
+			})(window,document,'script','dataLayer','GTM-NV6PMK8');
+		</script>
+		<!-- End Google Tag Manager --> 
 	</head>
 	<body>
+		<a href="https://api.whatsapp.com/send/?phone=552141412089&text&app_absent=0" class="link-whatsapp"><i class="fa">&#xf232;</i></a><!--whatsapp-->
+
 		<header>
 			<div class="background-img"></div>
 			<div class="background-color" id="particles-container"></div>
@@ -31,7 +52,9 @@
 					<div class="area-info-header">
 						<h1>SUA CONTA DE ENERGIA ESTÁ DOENDO NO BOLSO?</h1>
 						<h3>Troque sua conta de energia por um gerador solar ele se paga.</h3>
-
+						<div class="area-link">
+							<a href="https://kerosolar.com.br/contato/" class="link">Solicite seu orçamento ou uma consultoria gratuita</a>
+						</div>
 						<ul>
 							<li>
 								<i class="fa">&#xf0e7;</i>
@@ -49,10 +72,6 @@
 								<p>Frete grátis para todo Brasil.</p>
 							</li>
 						</ul>
-
-						<div class="area-link">
-							<a href="https://kerosolar.com.br/contato/" class="link">Solicite seu orçamento ou uma consultoria gratuita</a>
-						</div>
 					</div>
 				</div>
 			</content>
@@ -118,13 +137,12 @@
 
 		<section class="models">
 			<content>
-				<h1>Topologias disponíveis</h1>
+				<h1>Kits em promoção</h1>
 
 				<ul class="list-models">
 					<li>
 						<label class="name-product">Kit Micro Inversor de 1.80 Kwp</label>
 						<img src="img/kit_micro_inversor_de_1.80_Kwp.png">
-						<label class="obs">Não está incluso nos preços Homologação e Instalação!</label>
 						<div class="area-price">
 							<label class="lb-price">a partir de</label>
 							<label class="price">R$ 6.300,00</label>
@@ -136,12 +154,12 @@
 							<li>Conectores MC.4</li>
 							<li>-</li>
 						</ul>
+						<label class="obs">Não está incluso nos preços Homologação e Instalação!</label>
 					</li>
 
 					<li>
 						<label class="name-product">Kit Inversor de string de 3.60 Kwp</label>
 						<img src="img/kit_inversor_de_string_de_3.60_kwp.jpg">
-						<label class="obs">Não está incluso nos preços Homologação e Instalação!</label>
 						<div class="area-price">
 							<label class="lb-price">a partir de</label>
 							<label class="price">R$ 11.600,00</label>
@@ -153,12 +171,12 @@
 							<li>50 metros de cabo solar</li>
 							<li>Estrutura telhado e conectores MC.4</li>
 						</ul>
+						<label class="obs">Não está incluso nos preços Homologação e Instalação!</label>
 					</li>
 
 					<li>
 						<label class="name-product">Kit Inversor de string de 8.10 Kwp</label>
 						<img src="img/weg_1000.jpg">
-						<label class="obs">Não está incluso nos preços Homologação e Instalação!</label>
 						<div class="area-price">
 							<label class="lb-price">a partir de</label>
 							<label class="price">R$ 26.600,00</label>
@@ -170,10 +188,11 @@
 							<li>150 metros de cabo solar</li>
 							<li>Estrutura telhado e conectores MC.4</li>
 						</ul>
+						<label class="obs">Não está incluso nos preços Homologação e Instalação!</label>
 					</li>
 				</ul>
 				<div class="area-link">
-					<a href="https://kerosolar.com.br/contato/">Solicite seu orçamento ou uma consultoria gratuita</a>
+					<a href="https://kerosolar.com.br/contato/" class="link">Solicite seu orçamento ou uma consultoria gratuita</a>
 				</div>
 			</content>
 		</section>
@@ -307,5 +326,11 @@
 		</footer>
 
 		<script type="text/javascript" src="js/script.js"></script>
+		
+		<!-- Google Tag Manager (noscript) --> 
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV6PMK8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) --> 
 	</body>
 </html>
