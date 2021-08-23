@@ -290,7 +290,7 @@
 
 		<section class="questions">
 			<content>
-				<h1>Perguntas frequestes</h1>
+				<h1>Perguntas frequentes</h1>
 
 				<div>
 					<p class="question">É caro para instalar um gerador solar?</p>
